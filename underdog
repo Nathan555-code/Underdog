@@ -1,0 +1,254 @@
+#Nathan
+#Thursday October 10
+#UNDERDOG
+#below starts the game 
+print(" welcome to underdog, the objective of the game is to win your first UFC Debut match")
+print( "Your opponent is ranked 1 in the light heavyweight division, Having a reach of 80 inches standing at 6ft'2 and 225 pounds. He is known for knocking his opponents in record time with his immense combo and power strikes. However his grappling game isn’t as advanced as his striking")
+#below goes over the if else elif statements to the game, these statment are used to give a statement depending on what the user inputs
+print("START OF THE FIGHT!!!")
+print("Start of the first round,knowing that your opponent is a very aggressive power striker he will most likely run at you, what are you going to do:")
+choice2 = input("OPT 1 you can wait and let him come to you or OPT 2 Move foreward and create space in the ring? (OPT1/OPT2) ")
+#the if line is used for the first input pick the user chooses
+if choice2 == "OPT1":
+    print(" Now that you have let your opponent take space in the ring, he started swinging at your head. Luckily you were able to cover your face but suffered two strong shots to your body.")
+    choice3 = input("OPT3 you can either try to weave out of the corner and go in for the rear necked choke, or OPT4 you can keep on defending the shots until he tires out (OPT3/OPT4) ")
+    if choice3 == "OPT3" :
+        print("you were able to succesfully weave the shots and get out of the corner and connect the rear neck choke")
+        choice4 = input("you can either trip your oppoenent and try to switch from the rear necked choke to an arm bar which is OPT5 or you can jump on your opoenents back and try to submit him using the choke which is OPT6 (OPT5/OPT6) ")
+        if choice4 == "OPT5" :
+            print("you were able to succesfully trip your oponent as well as execute the arm bar, but now you hear the bell for 10 seconds left in the round")
+            choice5 = input("OPT6 you can either try and submit him by continuing the arm bar or OPT7 switch from arm bar to top mount and pound your oponent until the rounds ends (OPT6/OPT7)")
+            if choice5 == "OPT6" :
+                print("You tried submitting your opponent by continuing the arm but just before he is about to tapp out he gets saved by the bell, end of round 1")
+                print("start of round 2 you know that your opponent is super tired of all that wrestling so hes gonna wanna keep the fight to the ground")
+                choice6 = input("OPT7 you can either run at him at full speed and trow a flying knee in hopes of landing it or OPT8 run at him and go in for another take down trying to bring the fight to the ground (OPT7/OPT8)")
+                if choice6 == "OPT7" :
+                    print("you rush your opponent at full speed sprinting at one end of the cage to the other you trow your flying knee and it LANDS knowcking your opponent unconcious")
+                    print("the reff waves the fight off and VICTORY is yours !!")
+                    print("Please restart the game ")
+                elif choice6 == "OPT8" :
+                    print("you rush your oponent and go in for the take down but he is able to land a clean right overhand swing to your face wich wobbles you backwards, making the takedown unsuccesfull")
+                    choice7 = input("your opponent knocks your down and backwards and rushes you trying to connect a hard knee to the body, OPT9 you can either try and dodge the knee or OPT 10 trow a counter elbow in hopes of it landing (OPT9/OPT10) ")
+                    if choice7 == "OPT9" :
+                        print("you were able to succesfully dodge the flying knee, and made your opponent completly miss the target, you know find yourself behind him")
+                        choice10 = input(" you have two options your can either go in for a guillitine choke and try and make him tap out OPT10 or you can go in for the take down OPT11 (OPT10/OPT11)")
+                        if choice10 == "OPT10" :
+                            print("you were able to succesfully connect the guilitine choke and now put your opponent in a predicament")
+                            choice11 = input("You now put your opponent in a guillitine choke with little to no options, but in order to speed up the process of him tapping out you have two options OPT13 you can kick in knees outwards beding his body and putting more pressure on the choke or OPT14 you can try and jump on his back adding weight on his body and draining his stamina (OPT13/OPT14)")
+                            if choice11 == "OPT13" :
+                                print("after kicking his knee outwards you were able to aply more pressure and your opponent eventualy taps out giving your the victory in the fight")
+                                print("You Win!, please restart the game")
+                            elif choice11 == "OPT14" :
+                                print("you jumped on your oponents back which slowly drained hi energy due to the extra amount of weight he has to carry, causing his to pass out")
+                                print("the reff waves off the fight and the VICTORY is yours !!")
+                            else:
+                                print("Invalid choice please restart")
+                        elif choice10 == "OPT11" :
+                            print("you go in for a spear take down and now push your oponnent into the cage")
+                            choice12 = input("now that you pushed your oppoent into the cage you have to options you can either trow him to the ground and overload him with punches and knees to the face but have a risk of including illegal hits OPT12 or OPT13 you can jump onto his back crossing your leggs and forcing him to carry your weight which would slowly drain his energy (OTP12/OPT13)")
+                            if choice12 == "OPT12":
+                                print("you were able to succesfuly trow your oponent to the ground and started overloading him with all sorts of hard punches, but unfortunaly you started trowing illgal elbows at your opponents disqualifiying you from the fight")
+                                print("however due to you being overal dominant in the fight the judges has scored this fight as a no contest meaning no winners")
+                                print("DRAW, please restart the game")
+                            elif choice12 == "OPT13" :
+                                print("you chose to jump on your oponents back making him carry more weight then he should be which slowly drains his energy,and after 1 minute your opponent starts to loose strenght and slowly starts to moove towards the ground")
+                                choice13 = input("your opponent start to loose sensation in his body and is now slowly mooving to the ground, do you want to get off his back and bash his head into the floor OPT14 or do you want to stay on his back hoping he would pass out from the strain OPT15 (OPT14/OPT15)")
+                                if choice13 == "OPT14" :
+                                    print("your opponent falls to the ground face first, and you start bashing his head onto the ground, eventualy the reff pull you off of him and the fight is yours")
+                                    print("VICTORY, please resrart the game")
+                                elif choice13 == "OPT15" :
+                                    print("you stay on your oponents back, while he fights and struggles to stay up right, eventualy secluding to his tiredness he passes out giving you the victory")
+                                    print("Victory, please restart the game")
+                                else:
+                                    print("invalid choice please restart the game")
+                                    
+                                    
+                                        
+                                    
+                                
+                                    
+                            
+                            
+                            #this statement is used if the user inputs an options that isn't available
+                            else: ("Invalid choice, please restart the game")
+                        
+                     #this statement is the second option that the user is alout to choose, there could be mutiple elif statements depending on the options   
+                    elif choice7 == "OPT10" :
+                        print(" you try and trow a counter attack elbow and end up completly missing, and your opponent connect his flying knee to your body,he then is able to put you in an arm bar submisson after knocking you to the ground")
+                        choice8 = input("Your opponent now has you in an arm bar, OPT11 you can either squirm and hopefuly get out the arm bar and go in for a side control, or OPT12 trow an illegal moove wich is kicking your heel into your opponents groin which can either result into your being dissqualified or just loosing some points in the round (OPT11/OPT12)")
+                        if choice8 == "OPT11" :
+                            print("you trie to squirm out of the arm bar, but your opponents grip was to strong, and realised you ultimately lost you have two options")
+                            choice9 = input("OPT13 you can either refuse to tap because you think that is a PU**Y moove, or  OPT14 you try and squirm in desperate hopes of your opponent loosing a grip in his arm bar (OPT13/OPT14)")
+                            if choice9 == "OPT13" :
+                                print("you choose to not be a PU**Y huh, well you didn't tap and now your arm as snap off and is bent in a 90 degree angle")
+                                print("YOU LOOSE, please restart the game ")
+                                print(" was it really that worth it ?")
+                            elif choice9 == "OPT14":
+                                print("you realise that the pain is too much to handle and you tap out and give your opponent the victory")
+                                print("you LOOSE, please restart the game")
+                            else:
+                                print("Invalid choice please restart the game")
+                            
+                        elif choice8 == "OPT12" :
+                            print("you trow an illegal kick in desperate hopes of only loosing a couple of points in the round, but the reff isn't having it and waves of the fight as a loos and as a dirty play")
+                            print("you LOST please restart the game")
+                        else:
+                            print("Invalid choice please restart the game")
+                                
+                        
+                        
+                    else:
+                        print("invalid choice please restart the game")
+                    
+                    
+                    
+                else:
+                    print("invalid choice please restart")
+                    
+                    
+            elif choice5 == "OPT7" :
+                print("you were able to switch from arm bar to top mount and starting to pound and overload his face with devastating punches, but he luckily gets saved from the bell")
+                choice6 = input("both you and your oppoent are super tired, luckily from all the punches he took in last round he could barely stand up, you have to options OPT9 you can either run at him at full speed and trow a bunch of overhand punches or OPT10 try to end the fight and use all of your stamina on taking him down and submitting him (OPT9/OPT10)")
+                if choice6 == "OPT9" :
+                    print("you rush your opponent swinging at full speeds hoping you connect a hit, but you under estimate your oponent and he ends up staying calm and hits a nasty 2 jab one strong left cross combo, knocking the absolute soul of you")
+                    print("you LOOSE please restart")
+                elif choice6 == "OPT10":
+                    print("you use all of your stamina trying to rush the fight and going in for a take down but your opponent stays calm and lets you waste your stamina, after once loosing your stamina he goes in for a rear necked choke forcing you to tapp out of the fight")
+                    print("you LOOSE please restart")
+                else:
+                    print("invalid choice please restart")
+                        
+                
+                
+                
+                
+            else:
+                print("wong choice, please restart the game")
+            
+            
+        elif choice4 == "OPT6" :
+            print("you jump on your opoenents back and try and submit him using the rear necked choke but, he ends up flipping you on ur back and start to pound your faces with punches, you also hear the bell ring for 10 seconds left")
+            choice5 = input("OPT7 is you can just higher your guard and try to withstand the punches until the round ends or OPT8 , you can try and fight back by punching and elbowing his face (OPT7/OPT8)")
+            if choice5 == "OPT7" :
+                print("You put your guard up and ended but blocking most of his punches but one of his elbows were able to land, but before he could trow another punch you got saved by the bell, end of round 1")
+                print("start of round 2 your opponent has a big advantage over you as you lost a lot of energy from the earlier round")
+                choice6 = input("start of round 2 knowing that your opponent will rush you, OPT8 you can either stay where you are and wait for your opponnt to rush you and use his momentum aswell as yours to trow a devastating overhand swing, or OPT9 you can rush him going in for the take down spear (OPT8/OPT9)")
+                if choice6 == "OPT8" :
+                    print("you stayed calm and waited for your oponent to rush you, you see a perfect timing and strong a strong right overhand swing completly knocking your opponent out and even fracturing his cranium")
+                    print("YOU WIN , please restart the game")
+                elif choice6 == "OPT9":
+                    print(" your oponents rushes you with full speed knowing you are tired from last round and without thinking you rush him aswell and run straight into his flying knee breaking two of your front teeth and getting knocked out")
+                    print("YOU LOOSE please restart the game")
+                    
+            elif choice5 == "OPT8" :
+                print("you decided to try and fight back while having your opponent on top mount, and it backfires your opponent ends up landing massive elbows to your face, but luckily just before the bell was about to ring about for the end of round one the reff waves off a fight thinking your oppoent trew an illegal elbow ")
+                print("after revieing the footage, the judges realised it wasn't a illegal elbow and they changed the fight outcome to a no contest")
+                print("draw please restart the game")
+                
+            else:
+                    print("wrong choice, please restart the game")
+            
+            
+            
+        
+    elif choice3 == "OPT4" :
+        print("you suffured multiples body shots while trying to keep your guard up and protect your head and lucky get hit in the nuts, so you get 10 seconds to rest")
+        choice5 = input("your rest period is over and the bell rings meaning there is 10 seconds left till the round ends, OPT7 you can either run away and try and cath your opponent off guard  or OPT8 you can try and win the round and trow as many power punches at your opponent but you will train a lot of your stamina (OPT7/OPT8)")
+        if choice5 == "OPT7" :
+            print(" you come out of your corner and keeps your maximum distance from your opponent, since he knows you very injured he rushes but you succesfully evade him until you quickly turn around in 5 seconds left from the round to end and you trow a powerful left cross knocking him fully out and making you win the fight " )
+            print("you win , please restart the game")
+                
+                
+            
+            
+            
+        elif choice5 == "OPT8" :
+            print("You quickly rush your oponent and without thinking you start swinging at maximum force hoping to land a shot, but instead your oponnent is able to land a devasting right and left cross dealing massive amounts of damage to your head, rounds 1 ends")
+            print("before start of round 2 you suffered a massive blow to your head making you loose eye sight in one of your eye and the reff starts to question you about the swolen eye")
+            choice6 = input("You have two options, OPT9 tell the reff you lost eye sight in one of your eyes, OPT10 lie to the reff and continue fighting (OPT9/OPT10) ")
+            if choice6 == "OPT9":
+                print("you told the reff the truth and he stops the fight due to health issues")
+                print("You loss please restart the game")
+            elif choice6 == "OPT10" :
+                print("you keep on fighting but your oponent knows your weakness and starts to pock your swolen eye, due to your coach not wanting you to rish your health over a fight he trows in the towel and the reff stops the fight")
+                print("you LOSS please restart the game")
+                    
+                
+            
+            else:
+                print("invalid choice, please restart the game ")
+        
+        
+    
+        
+        
+        
+        else:
+            print("Invalid choice, plese restart the game")
+                    
+                    
+            
+                    
+
+
+
+elif choice2 == "OPT2" :
+    print("You choose to move foreward, your opponent tries to throw a strong leg kick")
+    choice4 = input("OPT3 you can try and shin check the leg and strong a strong right overhand punch in hopes of landing it then pressing your opponent, or OPT4 you can try and dodge the leg kick and go in for an ankle sweep trying to take the fight to the ground (OPT3/OPT4)")
+    if choice4 == "OPT3" :
+        print("you were able to succesfuly shin check the leg kick and followed through with the right overhand which wobbles your opponent")
+        choice5 = input("OPT4 you can either press your opoent going in for a spear take down or you can choose OPT5 where you press your opponent untill he reaches the corner of the cage and go in for a choke (OPT4/OPT5)")
+        if choice5 == "OPT4" :
+            print("after landing that right overhand your opponent wobbles backwards loosing his balance, so you choose to press him and go in for a spear takedown, luckily it landed and now you are in top mount possition")
+            choice6 = input("you have two options now that you are in top mount position you can pound your opponent into the ground with multiple eblows and punches OPT5 or you can switch from top mount and try and go in for a guiltine headlock which if landed would secure you victory (OPT5/OPT6)")
+            if choice6 == "OPT5" :
+                print("you end up pounding and bombarding your oppoent with elbows and punches which eventually knock him out, the reff waves off the fight")
+                print("VICTORY YOU HAVE WON THE FIGHT IN THE SHORTEST WAY POSSIBLE, please restart the game")
+            elif choice6 == "OPT6" :
+                print(" you chose to leave your top mount positions and go in for a guilitine headlock but end up getting the connection and submit your opponent before the round ended,")
+                print("YOU WIN pleas restart the game")
+                
+            else:
+                print("wrong choice please restart the game")
+                
+            
+            
+            
+        elif choice5 == "OPT5" :
+            print("after landing that right overhand your opponent wobbles backwards lossing his balance, so you choose to press him until he reaches the end of the cage, but by the time he reached the end of the cage he regained his balance and goes in for a take down spear")
+            choice6 = input ("you can either trow a leg kick while he ducked down to go for the take down spear OPT6 or try to land a overhand punch while he goes for the takedown OPT7 (OPT6/OPT7)")
+            if choice6 == "OPT6" :
+                print("you were able to land the knee which knocked your oponent to the ground, and then followed it with devastating elbows you kept on pounding your oponents with elbows untill the reff pulled you off and waved off the fight")
+                print("You WIN please restart the game")
+            elif choice6 == "OPT7" :
+                print("Your oponent was able to land the spear and get into top mount positon, while you missed your punch, he kept on punching and elbowing your face forcing the reff to wave off the fight")
+                print("you loss please restart the game")
+            
+            
+            
+        
+        
+        
+        
+    elif choice4 == "OPT4" :
+        print(" you succesfully dodged the leg kick but when you tried to go in for the ankle sweep your opponent catches you in a strong knee to your face wich opens up your right eye and dropes you to the ground. ")
+        choice5 = input("you now flop to the ground and find yourself covering your face from the lethal punched your opponent is giving, OPT5 you can either try and roll out of the top mount positon and try to go behind your opponent or OPT6 hold your oppoents neck close to your body to minimize the amount of power he can hit you with and wait out the round in that same positon (OPT5/OPT6)")
+        if choice5 == "OPT5" :
+            print("you try to roll out of top mount but your opponent is able to keep balance and stay in the position and you accidently lower your guard allowing your opponent to follow through with multiple elbows continiously making you loose contiousness")
+            print("the reff waves off the fight and you loose the fight while your body lays on the ground like a dead man")
+            print("you LOST please restart the game!!")
+        elif choice5 == "OPT6" :
+            print("you were able to succesfuly hold your opponents neck, but sometimes he was able to punch a couple of times throughout the round, but due to being fustrated from this annoying techniques he started trowing random elbows and without knowing threw an ilegal elbow causing him to loose the fight")
+            print("You win, please restart the game")
+        else:
+            print("invalid choice , please restart the game")
+            
+            
+        
+    else:
+        print("Invalid choice, please restart the game")
+    
+    
+    
+    
+    
